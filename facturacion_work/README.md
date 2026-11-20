@@ -91,11 +91,17 @@ Importe `tests/Facturacion.postman_collection.json` en Postman; configure `baseU
 - Registro de trabajo con IA: `BITACORA_IA.md`.
 - Presentación: `docs/PRESENTACION.md`.
 
-**Pendiente del equipo:** crear repositorio GitHub, asignar Issues, conseguir PR revisados y cinco commits por integrante, crear Release `v1.0`, completar nombres y capturas de pantalla, medir tiempos, hacer prueba extremo a extremo con Neon y exponer al menos tres retos reales. El código entregado aquí no constituye evidencia de esas acciones.
+**Evidencias por verificar con el equipo:** asignación de Issues, Pull Requests revisados, commits por integrante, Release `v1.0`, capturas de pantalla, medición de tiempos, prueba extremo a extremo con Neon y dificultades documentadas. El código del repositorio no constituye por sí solo evidencia de estas actividades.
 
-## Integrantes
+## Integrantes y colaboradores
 
-- [Agregar nombres reales del grupo y responsabilidades]
+- **Jonathan Steven Barrantes Jiménez**
+- **María Fernanda Fajardo Torres**
+- **Aarón de la Cruz Azofeifa Abarca**
+- **María Laura Brenes Herrera**
+- **Allan Alberto Azofeifa Ampié**
+
+Las responsabilidades individuales pueden detallarse cuando el grupo las confirme.
 
 ## Definición de hecho
 
