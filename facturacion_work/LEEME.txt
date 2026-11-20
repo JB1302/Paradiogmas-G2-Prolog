@@ -1,0 +1,4 @@
+KIT DEL ESTUDIANTE · Proyecto de facturación en Prolog
+sql/facturacion_neon.sql   -> pegar completo en Neon (SQL Editor) y ejecutar
+reglas/facturacion_datos.pl -> datos de ejemplo en Prolog (las REGLAS las escribe su grupo, con ayuda de la IA)
+Lea la guía: Proyecto_Facturacion_Prolog_GUIA_ESTUDIANTES.pdf

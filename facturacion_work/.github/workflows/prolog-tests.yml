@@ -1,0 +1,23 @@
+name: Pruebas Prolog
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  prolog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Instalar SWI-Prolog
+        run: sudo apt-get update && sudo apt-get install -y swi-prolog-nox
+      - name: Ejecutar 21 pruebas plunit
+        run: cd tests && swipl -q -s motor_tests.pl -g run_tests -t halt
+  javascript:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validar sintaxis de API y front end
+        run: node --check api/server.js && node --check web/app.js
